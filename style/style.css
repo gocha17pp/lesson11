@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+    background-color: #c4c4c4;
+    padding: 64px 38px;
+
+}
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 546px;
+
+}
+header nav ul a{
+    color: black;
+    font-size: 18px;
+}
+.item{
+    height: 400px;
+    overflow: hidden;
+}
+.indexarticle{
+    width: 30%;
+    background-color: #ff9900;
+     border-radius:30px 30px 00 ;
+     overflow: hidden;
+}
+
+
+.indexarticle div{
+    width: 100%;
+    height:  300px;
+    overflow: hidden;
+    
+}
+.indexarticle div img{
+    width: 100%;
+    
+}
+.indexarticle h2{
+    font-size: 18px;
+}
+.indexarticle section{
+    padding: 14px 68px 12px 12px;
+
+
+}
+.indexarticle section p:nth-child(2){
+           margin: 14px 0;
+           height: 40px;
+          
+           display: -webkit-box;
+           -webkit-line-clamp:2;
+           -webkit-box-orient: vertical;
+           overflow: hidden;
+           
+}
+.indexarticle section p a{
+    color:rgba(0, 0, 0, 0.5);
+}
+.articleconteiner{
+    display: flex;
+    justify-content: space-between;
+    padding: 34px 36px 48px 34px;
+}
+
+
+footer{
+    padding: 48px 0 30px 38px;
+}
+.saqturqmain{
+    padding: 14px 34px 46px 38px;
+}
+.goback{
+   margin-left: 8px;
+   margin-bottom: 14px;
+
+}
+.goback a{
+    font-size: 12px;
+    background-color:rgba(0, 0, 0, 0.5) ;
+
+}
+.inerarticle{
+    background-color: #ff9900;
+    padding-top: 56px;
+    padding-bottom: 50px;
+}
+.inerarticle h2{
+    margin-left: 10px;
+    font-size: 18px;
+}
+.inerarticle p{
+font-size: 18px;
+padding: 0 20px 0 10px;
+}
+.imgparent{
+    display: flex;
+    margin-top: 70px;
+    margin-bottom: 36px;
+}
+.inerimage{
+    width: 33.33%;
+    height: 350px;
+    overflow: hidden;
+
+}
+.inerimage img{
+width: 100%;
+filter: grayscale();
+transition: 0.5s;
+}
+.inerarticle p span{
+    display: block;
+    margin: 10px 0;
+    text-indent: 20px;
+
+}
+.inerimage img:hover{
+filter: none;
+transform: scale(1.2);
+}
+.limoni{
+    background-color: rgba(255, 199, 0, 1);
+}
+.fortoxali{
+    background-color: rgba(255, 230, 0, 1);
+
+}
